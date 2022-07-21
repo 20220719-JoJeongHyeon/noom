@@ -1,0 +1,59 @@
+#welcome_div {
+  outline: thick double white;
+  display: flex;
+  width: 100%;
+}
+
+#welcome_div div {
+  outline: solid white;
+  width: 70%;
+  overflow: hidden;  /* 기본값, 넘긴 컨텐츠는 상자 밖으로 보여짐 */
+} 
+
+
+#welcome_div div:first-child {
+  border-right: 1px solid white;
+}
+
+/* 참여 및 만들기 글짜 */
+#welcome_div div h4 {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+/* 참여 및 만들기 room name 칸 */
+#welcome_div div form {    /* flex를 이용한 수평 가운데 정렬 */
+  justify-content: bottom;
+  margin-top: 30px; /*바깥 여백 영역 설정*/
+}
+
+#welcome_div div form input {
+  background-color: transparent;   /*기본값 설정*/
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
+
+#welcome_div div form input:focus {
+  outline: none;
+}
+
+#welcome_div div form input:focus::placeholder {
+  color: transparent;
+}
+
+#welcome_div div form input::placeholder {
+  color: white;
+}
+/* room name을 입력하면 글짜가 사라짐 */
+
+#welcome_div div ul {
+  list-style: none;
+  color: white;
+  font-size: 20px;
+  padding-left: 0;
+}
+/* 다른방 소개 */
