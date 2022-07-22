@@ -78,12 +78,6 @@ d) Git을 이용한 협업 진행 과정
 
 e) 최종 개발 상태
 
-## 오픈소스로 받아온 상태
-
-<p align="center">
-<img src= "https://user-images.githubusercontent.com/99077276/180315725-5020bd43-15a1-4681-890b-a8e7f94fd203.png">
-</p>
-
 ## 개발 상태
 
 <p align="center">
